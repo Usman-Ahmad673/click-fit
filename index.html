@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click Fit - Your Fitness Journey Starts Here</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span class="logo-text"
+            >CLICK<span class="text-danger">FIT</span></span
+          >
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trainers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nutrition</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-danger text-white px-4 ms-3" href="#"
+                >Join Now</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero" class="d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 hero-text">
+            <h1 class="display-4 fw-bold animate-text">
+              Transform Your Body,<br />Transform Your
+              <span class="text-danger">Life</span>
+            </h1>
+            <p class="lead my-4 animate-text-delay">
+              Join our community of fitness enthusiasts and begin your journey
+              to a healthier, stronger you today.
+            </p>
+            <div class="animate-text-delay-2">
+              <a href="#" class="btn btn-danger btn-lg px-5 me-3 pulse-btn"
+                >Get Started</a
+              >
+              <a href="#" class="btn btn-outline-light text-danger btn-lg px-5"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6 position-relative d-none d-lg-block">
+            <div class="hero-image-container">
+              <img
+                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=870&auto=format&fit=crop"
+                alt="Fitness training"
+                class="img-fluid rounded hero-image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="daily-fact" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 class="mb-4">Today's Historical Fitness Fact</h2>
+            <div class="fact-box p-4 rounded shadow-sm">
+              <i class="fas fa-history fact-icon mb-3"></i>
+              <p id="fact-text" class="mb-0 fact-content">
+                Loading today's historical fact...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="display-5 fw-bold">Why Choose ClickFit?</h2>
+          <p class="lead">
+            We offer comprehensive fitness solutions tailored to your needs
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4 feature-card">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body text-center p-4">
+                <div class="feature-icon bg-danger text-white mb-4">
+                  <i class="fas fa-dumbbell"></i>
+                </div>
+                <h4 class="card-title">Personalized Workouts</h4>
+                <p class="card-text">
+                  Get custom workout plans designed specifically for your
+                  fitness level and goals.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 feature-card">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body text-center p-4">
+                <div class="feature-icon bg-danger text-white mb-4">
+                  <i class="fas fa-apple-alt"></i>
+                </div>
+                <h4 class="card-title">Nutrition Guidance</h4>
+                <p class="card-text">
+                  Access meal plans and nutritional advice that complement your
+                  fitness journey.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 feature-card">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body text-center p-4">
+                <div class="feature-icon bg-danger text-white mb-4">
+                  <i class="fas fa-users"></i>
+                </div>
+                <h4 class="card-title">Supportive Community</h4>
+                <p class="card-text">
+                  Join a community of like-minded individuals to stay motivated
+                  and inspired.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="upload-section" class="py-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center mb-5">
+            <h2 class="display-5 fw-bold">Share Your Fitness Journey</h2>
+            <p class="lead">
+              Upload your transformation photos and inspire others in our
+              community
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div
+              id="upload-container"
+              class="p-5 border-2 border-dashed rounded text-center"
+            >
+              <i class="fas fa-cloud-upload-alt upload-icon mb-3"></i>
+              <h4>Drag & Drop Images Here</h4>
+              <p>or</p>
+              <label for="file-input" class="btn btn-danger"
+                >Select Files</label
+              >
+              <input
+                type="file"
+                id="file-input"
+                name="images"
+                accept="image/*"
+                multiple
+                class="d-none"
+              />
+
+              <p class="mt-3 text-muted">
+                Share your fitness progress photos with our community
+              </p>
+            </div>
+            <div id="upload-progress" class="progress mt-4 d-none">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                role="progressbar"
+                aria-valuenow="0"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <div id="upload-preview" class="row mt-4 g-3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="programs" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="display-5 fw-bold">Our Fitness Programs</h2>
+          <p class="lead">
+            Discover the perfect program to help you achieve your fitness goals
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 program-card">
+            <div class="card h-100 border-0 shadow-sm">
+              <img
+                src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?q=80&w=1469&auto=format&fit=crop"
+                class="card-img-top program-img"
+                alt="Strength Training"
+              />
+              <div class="card-body p-4">
+                <h4 class="card-title">Strength Training</h4>
+                <p class="card-text">
+                  Build muscle, increase strength, and improve your overall
+                  physical performance.
+                </p>
+                <a href="#" class="btn btn-outline-danger">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 program-card">
+            <div class="card h-100 border-0 shadow-sm">
+              <img
+                src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=1470&auto=format&fit=crop"
+                class="card-img-top program-img"
+                alt="Cardio Fitness"
+              />
+              <div class="card-body p-4">
+                <h4 class="card-title">Cardio Fitness</h4>
+                <p class="card-text">
+                  Improve your cardiovascular health, endurance, and burn
+                  calories effectively.
+                </p>
+                <a href="#" class="btn btn-outline-danger">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 program-card">
+            <div class="card h-100 border-0 shadow-sm">
+              <img
+                src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1420&auto=format&fit=crop"
+                class="card-img-top program-img"
+                alt="Yoga & Flexibility"
+              />
+              <div class="card-body p-4">
+                <h4 class="card-title">Yoga & Flexibility</h4>
+                <p class="card-text">
+                  Enhance your flexibility, balance, and mental well-being
+                  through yoga practices.
+                </p>
+                <a href="#" class="btn btn-outline-danger">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="display-5 fw-bold">Success Stories</h2>
+          <p class="lead">
+            Hear from our members who have transformed their lives with ClickFit
+          </p>
+        </div>
+        <div class="row testimonial-slider">
+          <div class="col-md-4 testimonial-item">
+            <div class="card h-100 border-0 shadow-sm p-4">
+              <div class="d-flex align-items-center mb-3">
+                <img
+                  src="https://randomuser.me/api/portraits/women/32.jpg"
+                  class="rounded-circle testimonial-img"
+                  alt="Sarah J."
+                />
+                <div class="ms-3">
+                  <h5 class="mb-0">Sarah J.</h5>
+                  <small class="text-muted">Lost 30 lbs in 6 months</small>
+                </div>
+              </div>
+              <p class="card-text">
+                "ClickFit completely transformed my approach to fitness. The
+                personalized programs and supportive community helped me achieve
+                goals I never thought possible."
+              </p>
+              <div class="text-warning">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 testimonial-item">
+            <div class="card h-100 border-0 shadow-sm p-4">
+              <div class="d-flex align-items-center mb-3">
+                <img
+                  src="https://randomuser.me/api/portraits/men/44.jpg"
+                  class="rounded-circle testimonial-img"
+                  alt="David R."
+                />
+                <div class="ms-3">
+                  <h5 class="mb-0">David R.</h5>
+                  <small class="text-muted">Gained 15 lbs of muscle</small>
+                </div>
+              </div>
+              <p class="card-text">
+                "The strength training program at ClickFit is top-notch. The
+                trainers know exactly how to push you to your limits while
+                keeping form perfect."
+              </p>
+              <div class="text-warning">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 testimonial-item">
+            <div class="card h-100 border-0 shadow-sm p-4">
+              <div class="d-flex align-items-center mb-3">
+                <img
+                  src="https://randomuser.me/api/portraits/women/68.jpg"
+                  class="rounded-circle testimonial-img"
+                  alt="Jennifer L."
+                />
+                <div class="ms-3">
+                  <h5 class="mb-0">Jennifer L.</h5>
+                  <small class="text-muted">Completed first marathon</small>
+                </div>
+              </div>
+              <p class="card-text">
+                "I never thought I'd be able to run a marathon, but with
+                ClickFit's cardio program and the amazing community support, I
+                crossed that finish line!"
+              </p>
+              <div class="text-warning">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="py-5 text-center text-white">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2 class="display-4 fw-bold mb-4">
+              Ready to Start Your Fitness Journey?
+            </h2>
+            <p class="lead mb-5">
+              Join thousands of members who have transformed their lives with
+              ClickFit
+            </p>
+            <a href="#" class="btn btn-danger btn-lg px-5 me-3 cta-btn"
+              >Join Today</a
+            >
+            <a href="#" class="btn btn-outline-light btn-lg text-muted px-5"
+              >Contact Us</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-5 bg-dark text-white">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <h3 class="logo-text mb-4">
+              CLICK<span class="text-danger">FIT</span>
+            </h3>
+            <p>
+              Your ultimate destination for fitness guidance, workout plans, and
+              a supportive community to help you achieve your health goals.
+            </p>
+            <div class="social-icons">
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <h5 class="mb-4">Programs</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Strength Training</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Cardio Fitness</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Yoga Classes</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >HIIT Workouts</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <h5 class="mb-4">Company</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none">About Us</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Our Trainers</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Testimonials</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <h5 class="mb-4">Support</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none">FAQs</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Terms of Service</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <h5 class="mb-4">Contact</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <i class="fas fa-map-marker-alt me-2 text-danger"></i> 123
+                Fitness St, Gym City
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-phone me-2 text-danger"></i> (555) 123-4567
+              </li>
+              <li>
+                <i class="fas fa-envelope me-2 text-danger"></i>
+                info@clickfit.com
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-4" />
+        <div class="row">
+          <div class="col text-center">
+            <p class="mb-0">&copy; 2023 ClickFit. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
